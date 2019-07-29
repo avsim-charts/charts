@@ -4,6 +4,7 @@ deploy:
   on:
     branch: master
   repo: avsim-charts/avsim-charts.github.io
+  target_branch: master
   project_name: Avsim-charts-explorer
   provider: pages
   skip_cleanup: true
