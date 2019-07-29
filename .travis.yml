@@ -1,0 +1,12 @@
+language: go
+
+deploy:
+  repo: avsim-charts/avsim-charts.github.io
+  keep_history: true
+  project_name: Avsim-charts-explorer
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
