@@ -1,4 +1,4 @@
-language: go
+language: generic
 
 deploy:
   repo: avsim-charts/avsim-charts.github.io
